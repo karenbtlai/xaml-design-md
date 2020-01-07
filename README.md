@@ -47,9 +47,9 @@ _Current styling for iOS Mobile_
 
 States | Indeterminate | Determinate
 ------------ | ------------- | -------------
-Running | Content cell 2 | 
-Paused | Content column 2
-Error | 
+Running | ![Indeterminate-Running](https://github.com/karenbtlai/xaml-design-md/blob/master/indeterminate-running.png?raw=true) | ![Determinate-Running](https://github.com/karenbtlai/xaml-design-md/blob/master/determinate-running.png?raw=true)
+Paused | ![Indeterminate-Paused](https://github.com/karenbtlai/xaml-design-md/blob/master/indeterminate-paused.png?raw=true) | ![Determinate-Paused](https://github.com/karenbtlai/xaml-design-md/blob/master/determinate-paused.png?raw=true)
+Error | ![Indeterminate-Error](https://github.com/karenbtlai/xaml-design-md/blob/master/indeterminate-error.png?raw=true) | ![Determinate-Error](https://github.com/karenbtlai/xaml-design-md/blob/master/determinate-error.png?raw=true)
 
 ### Controls Property Mapping
 
@@ -62,6 +62,7 @@ Property | Controls Mapping
 `Padding` | n/a
 
 ## Context
+![Progress Ring Context](https://github.com/karenbtlai/xaml-design-md/blob/master/progressring-context.png?raw=true)
 
 ## Animation / Link to Prototype
-
+[CodePen Prototype](https://codepen.io/anon/pen/aQeVOm)
