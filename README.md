@@ -7,13 +7,9 @@
 Update Progress Ring to follow Win 10 Design Guide; add `Determinate`, `Error`, and `Paused` states so that it is parallel to Progress Bar.
 
 <!-- If the feature proposal is an update, provide before / after images -->
-**Before**
-
-<img src="https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/images/progressring_singlestate.png" width="200px">
-
-**After**
-
-<img src="https://docs.microsoft.com/en-us/windows/communitytoolkit/resources/images/controls/radialprogressbar.png" width="200px">
+**Before** | **After**
+------------ | -------------
+<img src="https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/images/progressring_singlestate.png" width="200px"> | <img src="https://docs.microsoft.com/en-us/windows/communitytoolkit/resources/images/controls/radialprogressbar.png" width="200px">
 
 <!-- Purpose of feature proposal or update -->
 ## Problem to Solve 
@@ -31,7 +27,7 @@ This also updates the Progress Ring visuals to be similar to Progress Bar and up
 Determinate progress indicator "offer a reason to wait and reduce users' perception of time". Furthermore, inifintely loading spinners tend to have negative connotations, as **"people don't like to stare at loading spinner with no indication of progress or time."** 
 
 <!-- Provide competitive research if applicable (what are other teams' solutions, both within and outside of Microsoft? How can we leverage their existing solutions) -->
-### Existing Solutions
+## Existing Solutions
 
 **Microsoft**
 
@@ -45,7 +41,9 @@ _Current styling for iOS Mobile_
 <img src="https://miro.medium.com/max/1280/1*EttlyrQ2zrwq3hSjDxsuaA.png" width="600px">
 
 
-### Visuals Comps 
+## Visuals Comps 
+
+### Controls States
 
 States | Indeterminate | Determinate
 ------------ | ------------- | -------------
@@ -63,7 +61,7 @@ Property | Controls Mapping
 `Margin` | Ring Margin
 `Padding` | n/a
 
-### Context
+## Context
 
-### Animation / Link to Prototype
+## Animation / Link to Prototype
 
