@@ -4,7 +4,7 @@
 # Progress Ring Control
 
 <!-- Brief summary of feature proposal --> 
-Update Progress Ring to follow Win 10 Design Guide; add `Determinate`, `Error`, and `Paused` states so that it is parallel to Progress Bar.
+Update Progress Ring to follow Win 10 Design Guide; add `Determinate`, `Error`, and `Paused` states so that it aligns with Progress Bar.
 
 <!-- If the feature proposal is an update, provide before / after images -->
 **Before** | **After**
@@ -57,17 +57,19 @@ Error | ![Indeterminate-Error](https://github.com/karenbtlai/xaml-design-md/blob
 
 Property | Type | Controls Mapping
 ------------ | ------------- | -------------
-`IsIndeterminate` | Boolean | toggles Determinate / Indeterminate state
-`ShowPaused` | Boolean | toggles Paused state
-`ShowError` | Boolean | toggles Error state
+`IsIndeterminate` | Boolean | Toggles Determinate / Indeterminate state
+`ShowPaused` | Boolean | Toggles Paused state
+`ShowError` | Boolean | Toggles Error state
 `Foreground` | Color | Ring indicator
 `Background` | Color | Ring gray track
 `Stroke` | Double | Ring thickness 
 `Margin` | Double| Ring Margin
 `Padding` | n/a | 
 
+<!-- Context / Usage for the control -->
 ## Context
 ![Progress Ring Context](https://github.com/karenbtlai/xaml-design-md/blob/master/progressring-context.png?raw=true)
 
+<!-- Animation or prototype to better demonstrate the control -->
 ## Animation / Link to Prototype
 [CodePen Prototype](https://codepen.io/anon/pen/aQeVOm)
