@@ -40,9 +40,10 @@ _Current styling for iOS Mobile_
 
 <img src="https://miro.medium.com/max/1280/1*EttlyrQ2zrwq3hSjDxsuaA.png" width="600px">
 
-
+<!-- Control Visuals for all states / properties -->
 ## Visuals Comps 
 
+<!-- What visual states are required for this control and what does the visuals look like -->
 ### Controls States
 
 States | Indeterminate | Determinate
@@ -51,15 +52,19 @@ Running | ![Indeterminate-Running](https://github.com/karenbtlai/xaml-design-md/
 Paused | ![Indeterminate-Paused](https://github.com/karenbtlai/xaml-design-md/blob/master/indeterminate-paused.png?raw=true) | ![Determinate-Paused](https://github.com/karenbtlai/xaml-design-md/blob/master/determinate-paused.png?raw=true)
 Error | ![Indeterminate-Error](https://github.com/karenbtlai/xaml-design-md/blob/master/indeterminate-error.png?raw=true) | ![Determinate-Error](https://github.com/karenbtlai/xaml-design-md/blob/master/determinate-error.png?raw=true)
 
+<!-- What properties are editable in the XAML for the end users, and what does it map to -->
 ### Controls Property Mapping
 
-Property | Controls Mapping
------------- | -------------
-`Foreground` | Ring indicator
-`Background` | Ring gray track 
-`Stroke` | Ring thickness
-`Margin` | Ring Margin
-`Padding` | n/a
+Property | Type | Controls Mapping
+------------ | ------------- | -------------
+`IsIndeterminate` | Boolean | toggles Determinate / Indeterminate state
+`ShowPaused` | Boolean | toggles Paused state
+`ShowError` | Boolean | toggles Error state
+`Foreground` | Color | Ring indicator
+`Background` | Color | Ring gray track
+`Stroke` | Double | Ring thickness 
+`Margin` | Double| Ring Margin
+`Padding` | n/a | 
 
 ## Context
 ![Progress Ring Context](https://github.com/karenbtlai/xaml-design-md/blob/master/progressring-context.png?raw=true)
