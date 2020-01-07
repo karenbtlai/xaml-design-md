@@ -1,7 +1,7 @@
 <!-- Microsoft Xaml Controls Features Specification Template -->
 
 <!-- Title / Name of Feature -->
-# Progress Ring Control
+# Update Progress Ring Control
 
 <!-- Brief summary of feature proposal --> 
 Update Progress Ring to follow Win 10 Design Guide; add `Determinate`, `Error`, and `Paused` states so that it aligns with Progress Bar.
